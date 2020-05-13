@@ -14,7 +14,7 @@ import java.util.List;
  * @date 2020/5/12 16:20
  * @description 存栏feign
  */
-@FeignClient(name = "pig-service-inventory")
+@FeignClient(name = "pig-service-inventory") // 定义降级的方法
 @RequestMapping("/inventory") //会根据动态代理,生成对应的sku 的访问路径拼接起来
 public interface InventoryFeign {
 

@@ -30,3 +30,12 @@ eureka: #向eureka 服务端注册
       defaultZone: http://127.0.0.1:7001/eureka
   instance:
     prefer-ip-address: true
+logging:
+  config:
+    classpath:logback-test.xml
+
+# 开启熔断器
+
+feign:
+  hystrix:
+    enabled: true

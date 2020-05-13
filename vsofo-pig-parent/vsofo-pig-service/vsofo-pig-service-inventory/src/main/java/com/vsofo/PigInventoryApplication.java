@@ -4,6 +4,7 @@ import org.mybatis.spring.annotation.MapperScan;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
+import org.springframework.scheduling.annotation.EnableScheduling;
 
 /**
  * @author huxiongjun
@@ -13,6 +14,7 @@ import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
  */
 @SpringBootApplication/*(exclude = DataSourceAutoConfiguration.class)*/
 @EnableEurekaClient
+@EnableScheduling // 开启任务调度
 @MapperScan("com.vsofo.inventory.mapper")
 public class PigInventoryApplication {
     public static void main(String[] args) {

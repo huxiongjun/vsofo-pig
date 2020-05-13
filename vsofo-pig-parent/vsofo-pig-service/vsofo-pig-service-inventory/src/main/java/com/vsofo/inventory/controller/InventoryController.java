@@ -24,6 +24,11 @@ public class InventoryController {
     @Autowired
     private InventoryService inventoryService;
 
+    @GetMapping(value = "/test")
+    public String test() {
+        return "success";
+    }
+
 
     /**
      * 查询猪只档案的所有数据,得到猪只档案全部数据
@@ -34,7 +39,6 @@ public class InventoryController {
         System.out.println("进入查询所有的方法");
         List<PigsArchive> pigList = inventoryService.findAll();
         if ( pigList!=null){
-            System.out.println(pigList);
             return new Result<>(true, StatusCode.OK, "查询存栏成功",  pigList);
         }
         return new Result<>(false, StatusCode.ERROR, "查询存栏失败");
