@@ -8,6 +8,8 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
+import java.util.List;
+
 /**
  * @author huxiongjun
  * @version 1.0
@@ -19,10 +21,15 @@ import org.springframework.web.bind.annotation.RestController;
 public class SlaughterController {
     @Autowired
     private InventoryFeign inventoryFeign;
+
+    /**
+     * feign 调用测试
+     * @return 测试结果
+     */
     @GetMapping("/feignTest")
-    public String feignTest(){
-        Result<PigsArchive> pigsArchiveResult = inventoryFeign.findAll();
-        System.out.println(pigsArchiveResult.getData());
-        return "success";
+    public Result<List<PigsArchive>> feignTest(){
+        Result<List<PigsArchive>> listResult = inventoryFeign.findAll();
+        System.out.println(listResult);
+        return listResult;
     }
 }

@@ -30,7 +30,7 @@ public class InventoryController {
      * @return 所有猪只档案列表
      */
     @GetMapping(value = "/findAll")
-    public Result<PigsArchive> findAll() {
+    public Result<List<PigsArchive>> findAll() {
         System.out.println("进入查询所有的方法");
         List<PigsArchive> pigList = inventoryService.findAll();
         if ( pigList!=null){
