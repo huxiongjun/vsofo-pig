@@ -2,7 +2,7 @@
 spring:
   cloud:
     config:
-      name: pig-service-test # 与远程仓库中的配置文件的application保持一致，{application}-{profile}.yml
+      name: pigServiceTest # 与远程仓库中的配置文件的application保持一致，{application}-{profile}.yml
       profile: dev # 远程仓库中的配置文件的profile保持一致 test 测试环境 pro 生产环境
       label: master # 远程仓库中的版本保持一致
       discovery:
