@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/vsofo-pig-parent/vsofo-pig-common/vsofo-pig-common.iml" filepath="$PROJECT_DIR$/vsofo-pig-parent/vsofo-pig-common/vsofo-pig-common.iml" />
       <module fileurl="file://$PROJECT_DIR$/vsofo-pig-parent/vsofo-pig-common-db/vsofo-pig-common-db.iml" filepath="$PROJECT_DIR$/vsofo-pig-parent/vsofo-pig-common-db/vsofo-pig-common-db.iml" />
+      <module fileurl="file://$PROJECT_DIR$/vsofo-pig-parent/vsofo-pig-configServer/vsofo-pig-configServer.iml" filepath="$PROJECT_DIR$/vsofo-pig-parent/vsofo-pig-configServer/vsofo-pig-configServer.iml" />
       <module fileurl="file://$PROJECT_DIR$/vsofo-pig-parent/vsofo-pig-eurekaServer/vsofo-pig-eurekaServer.iml" filepath="$PROJECT_DIR$/vsofo-pig-parent/vsofo-pig-eurekaServer/vsofo-pig-eurekaServer.iml" />
       <module fileurl="file://$PROJECT_DIR$/vsofo-pig-parent/vsofo-pig-gateway/vsofo-pig-gateway.iml" filepath="$PROJECT_DIR$/vsofo-pig-parent/vsofo-pig-gateway/vsofo-pig-gateway.iml" />
       <module fileurl="file://$PROJECT_DIR$/vsofo-pig-parent/vsofo-pig-gateway/vsofo-pig-gateway-company/vsofo-pig-gateway-company.iml" filepath="$PROJECT_DIR$/vsofo-pig-parent/vsofo-pig-gateway/vsofo-pig-gateway-company/vsofo-pig-gateway-company.iml" />
@@ -18,6 +19,7 @@
       <module fileurl="file://$PROJECT_DIR$/vsofo-pig-parent/vsofo-pig-service-api/vsofo-pig-service-inventory-api/vsofo-pig-service-inventory-api.iml" filepath="$PROJECT_DIR$/vsofo-pig-parent/vsofo-pig-service-api/vsofo-pig-service-inventory-api/vsofo-pig-service-inventory-api.iml" />
       <module fileurl="file://$PROJECT_DIR$/vsofo-pig-parent/vsofo-pig-service/vsofo-pig-service-slaughter/vsofo-pig-service-slaughter.iml" filepath="$PROJECT_DIR$/vsofo-pig-parent/vsofo-pig-service/vsofo-pig-service-slaughter/vsofo-pig-service-slaughter.iml" />
       <module fileurl="file://$PROJECT_DIR$/vsofo-pig-parent/vsofo-pig-service-api/vsofo-pig-service-slaughter-api/vsofo-pig-service-slaughter-api.iml" filepath="$PROJECT_DIR$/vsofo-pig-parent/vsofo-pig-service-api/vsofo-pig-service-slaughter-api/vsofo-pig-service-slaughter-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/vsofo-pig-parent/vsofo-pig-service/vsofo-pig-service-test/vsofo-pig-service-test.iml" filepath="$PROJECT_DIR$/vsofo-pig-parent/vsofo-pig-service/vsofo-pig-service-test/vsofo-pig-service-test.iml" />
     </modules>
   </component>
 </project>

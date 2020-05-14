@@ -1,0 +1,34 @@
+server:
+  port: 9090
+spring:
+  application:
+    name: config-server # 应用名
+  cloud:
+    config:
+      server:
+        git:
+          # 配置github的仓库地址
+          uri: https://github.com/huxiongjun/config.git
+#  # rabbitmq的配置信息；如下配置的rabbit都是默认值，其实可以完全不配置
+#  rabbitmq:
+#    host: localhost
+#    port: 5672
+#    username: guest
+#    password: guest
+## 暴露触发消息总线的地址
+#management:
+#  endpoints:
+#    web:
+#      exposure:
+#        # 暴露触发消息总线的地址
+#        include: bus-refresh
+
+# Eureka服务中心配置
+eureka:
+    service-url:
+      # 注册Eureka Server集群
+      defaultZone: http://127.0.0.1:7001/eureka
+# com.hu 包下的日志级别都为Debug
+logging:
+  level:
+    com.hu: debug

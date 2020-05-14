@@ -1,5 +1,7 @@
 package com.vsofo.controller;
 
+import com.netflix.hystrix.contrib.javanica.annotation.DefaultProperties;
+import com.netflix.hystrix.contrib.javanica.annotation.HystrixCommand;
 import com.vsofo.entity.Result;
 import com.vsofo.inventory.feign.InventoryFeign;
 import com.vsofo.inventory.pojo.PigsArchive;
@@ -26,10 +28,19 @@ public class SlaughterController {
      * feign 调用测试
      * @return 测试结果
      */
+    @HystrixCommand(fallbackMethod = "failBack")
     @GetMapping("/feignTest")
     public Result<List<PigsArchive>> feignTest(){
         Result<List<PigsArchive>> listResult = inventoryFeign.findAll();
-        System.out.println(listResult);
         return listResult;
+    }
+
+    /****
+     * 服务降级处理方法
+     * @return null
+     */
+    public  Result<List<PigsArchive>>  failBack(){
+        System.out.println("方法服务降级,默认处理！");
+        return null;
     }
 }

@@ -3,6 +3,7 @@
   <component name="Encoding" defaultCharsetForPropertiesFiles="UTF-8">
     <file url="file://$PROJECT_DIR$/vsofo-pig-parent/vsofo-pig-common-db/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/vsofo-pig-parent/vsofo-pig-common/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/vsofo-pig-parent/vsofo-pig-configServer/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/vsofo-pig-parent/vsofo-pig-eurekaServer/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/vsofo-pig-parent/vsofo-pig-gateway/vsofo-pig-gateway-company/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/vsofo-pig-parent/vsofo-pig-service-api/vsofo-pig-service-cost-api/src/main/java" charset="UTF-8" />
@@ -13,6 +14,7 @@
     <file url="file://$PROJECT_DIR$/vsofo-pig-parent/vsofo-pig-service/vsofo-pig-service-indicator/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/vsofo-pig-parent/vsofo-pig-service/vsofo-pig-service-inventory/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/vsofo-pig-parent/vsofo-pig-service/vsofo-pig-service-slaughter/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/vsofo-pig-parent/vsofo-pig-service/vsofo-pig-service-test/src/main/java" charset="UTF-8" />
     <file url="PROJECT" charset="UTF-8" />
   </component>
 </project>

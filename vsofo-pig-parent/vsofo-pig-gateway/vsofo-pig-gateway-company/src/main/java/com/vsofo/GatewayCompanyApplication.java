@@ -18,7 +18,6 @@ import reactor.core.publisher.Mono;
 @EnableEurekaClient
 public class GatewayCompanyApplication {
     public static void main(String[] args) {
-
         SpringApplication.run(GatewayCompanyApplication.class, args);
     }
     /**

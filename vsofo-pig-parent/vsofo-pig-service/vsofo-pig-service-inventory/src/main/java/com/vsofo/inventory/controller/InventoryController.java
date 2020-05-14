@@ -28,8 +28,6 @@ public class InventoryController {
     public String test() {
         return "success";
     }
-
-
     /**
      * 查询猪只档案的所有数据,得到猪只档案全部数据
      * @return 所有猪只档案列表

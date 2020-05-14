@@ -19,7 +19,8 @@ spring:
       routes:
         # 存栏微服务路径配置,其他微服务配置类似
         - id: pig-service-inventory
-          uri: http://localhost:18081/
+#          uri: http://localhost:18081/ 避免写死,使用eureka 中服务的名字作为地址
+          uri: lb://PIG-SERVICE-INVENTORY
           predicates:
             - Path=/api/inventory/**
           filters:

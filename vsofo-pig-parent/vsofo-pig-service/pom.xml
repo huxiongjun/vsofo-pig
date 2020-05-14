@@ -17,6 +17,7 @@
         <module>vsofo-pig-service-indicator</module>
         <module>vsofo-pig-service-inventory</module>
         <module>vsofo-pig-service-slaughter</module>
+        <module>vsofo-pig-service-test</module>
     </modules>
 
     <!--依赖数据库的common-db 工程-->

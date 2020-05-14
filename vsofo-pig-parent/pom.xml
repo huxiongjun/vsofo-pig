@@ -14,6 +14,7 @@
         <module>vsofo-pig-gateway</module>
         <module>vsofo-pig-service</module>
         <module>vsofo-pig-service-api</module>
+        <module>vsofo-pig-configServer</module>
     </modules>
     <!--打包方式为pom 父工程打包-->
     <packaging>pom</packaging>

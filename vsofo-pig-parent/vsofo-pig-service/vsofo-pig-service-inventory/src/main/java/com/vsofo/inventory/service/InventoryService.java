@@ -1,6 +1,5 @@
 package com.vsofo.inventory.service;
 
-
 import com.vsofo.inventory.pojo.PigsArchive;
 
 import java.util.List;
