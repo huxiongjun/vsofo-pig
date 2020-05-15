@@ -18,8 +18,6 @@
     </modules>
     <!--打包方式为pom 父工程打包-->
     <packaging>pom</packaging>
-
-
     <description>智慧养猪父工程</description>
     <!--springBoot 父工程-->
     <parent>

@@ -16,7 +16,7 @@ import org.springframework.cloud.openfeign.EnableFeignClients;
 @SpringBootApplication(exclude = DataSourceAutoConfiguration.class)
 @EnableEurekaClient
 @EnableFeignClients(basePackages = {"com.vsofo.inventory.feign"})
-@EnableCircuitBreaker //开启熔断机制
+@EnableCircuitBreaker //开启熔断机制 防止服务血崩的熔断降级
 public class PigSlaughterApplication {
     public static void main(String[] args) {
         SpringApplication.run(PigSlaughterApplication.class, args);

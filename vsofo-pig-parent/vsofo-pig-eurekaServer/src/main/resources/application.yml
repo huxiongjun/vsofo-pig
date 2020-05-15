@@ -14,4 +14,4 @@ eureka:
 spring:
   application:
     #    注册中心的服务名字
-    name: eureka-server
+    name: eurekaServer

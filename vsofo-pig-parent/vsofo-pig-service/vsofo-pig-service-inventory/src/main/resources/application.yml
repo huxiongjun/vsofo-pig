@@ -1,6 +1,6 @@
 spring:
   application:
-    name: pig-service-inventory
+    name: pigServiceInventory
 #连接数据库sql_server
   datasource:
     driver-class-name: com.microsoft.sqlserver.jdbc.SQLServerDriver
@@ -14,7 +14,9 @@ spring:
 #    url: jdbc:mysql://127.0.0.1:3306/huxiongjun?autoReconnect=true&useUnicode=true&characterEncoding=utf-8&serverTimezone=UTC
 #    username: root
 #    password: root
-#mybatis配置
+
+
+# mybatis配置
 mybatis:
 #实体类别名
   type-aliases-package: com.vsofo.inventory.pojo
@@ -22,20 +24,24 @@ mybatis:
   mapper-locations: classpath:mapper/*.xml
 #mybatis配置文件对应的位置 这里直接就在application.yml 文件中配置了
 #configLocation: classpath:/mybatis-config.xml
+
+
 server:
   port: 18081 #该微服务的端口
-eureka: #向eureka 服务端注册
+
+#向eureka 服务端注册
+eureka:
   client:
     service-url:
       defaultZone: http://127.0.0.1:7001/eureka
   instance:
     prefer-ip-address: true
+# 日志记录测试
 logging:
   config:
     classpath:logback-test.xml
 
 # 开启熔断器
-
 feign:
   hystrix:
     enabled: true

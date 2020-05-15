@@ -1,9 +1,11 @@
 spring:
   application:
-    name: pig-service-slaughter
+    name: pigServiceSlaughter
 server:
   port: 18082 #该微服务的端口
-eureka: #向eureka 服务端注册
+
+#向eureka 服务端注册
+eureka:
   client:
     service-url:
       defaultZone: http://127.0.0.1:7001/eureka

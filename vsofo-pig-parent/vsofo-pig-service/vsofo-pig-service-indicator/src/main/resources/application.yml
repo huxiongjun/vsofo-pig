@@ -1,6 +1,6 @@
 spring:
   application:
-    name: pig-service-indicator
+    name: pigServiceIndicator
 server:
   port: 18083 #该微服务的端口
 eureka: #向eureka 服务端注册

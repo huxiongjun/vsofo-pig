@@ -28,7 +28,7 @@ public class SlaughterController {
      * feign 调用测试
      * @return 测试结果
      */
-    @HystrixCommand(fallbackMethod = "failBack")
+    @HystrixCommand(fallbackMethod = "failBack") // 制定服务降级方法
     @GetMapping("/feignTest")
     public Result<List<PigsArchive>> feignTest(){
         Result<List<PigsArchive>> listResult = inventoryFeign.findAll();
