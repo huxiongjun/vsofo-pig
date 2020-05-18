@@ -1,0 +1,6 @@
+com\vsofo\inventory\controller\InventoryController.class
+com\vsofo\inventory\service\InventoryService.class
+com\vsofo\inventory\mapper\InventoryMapper.class
+com\vsofo\inventory\service\impl\InventoryServiceImpl.class
+com\vsofo\inventory\timer\ScheduledTasks.class
+com\vsofo\PigInventoryApplication.class
